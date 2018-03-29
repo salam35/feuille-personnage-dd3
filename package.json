@@ -1,30 +1,33 @@
 {
-  "name": "vue-meteor",
-  "version": "0.1.0",
-  "description": "Meteor + Vue stack",
+  "name": "vue-meteor-demo",
+  "private": true,
   "scripts": {
-    "eslint": "eslint --ext .js,.jsx,.vue packages"
+    "start": "meteor run"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meteor-vue/vue-meteor.git"
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.40",
+    "apollo-client": "^1.9.3",
+    "bcrypt": "^1.0.3",
+    "core-js": "^2.5.3",
+    "intersection-observer": "^0.4.3",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "marker-clusterer-plus": "^2.1.4",
+    "meteor-node-stubs": "^0.3.2",
+    "moment": "^2.20.1",
+    "vue": "2.5.13",
+    "vue-apollo": "^2.1.0-rc.8",
+    "vue-googlemaps": "^0.0.6",
+    "vue-meteor-tracker": "^1.2.0",
+    "vue-observe-visibility": "^0.3.1",
+    "vue-router": "^3.0.1",
+    "vue-supply": "^0.3.0",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
   },
-  "author": "Guillaume Chau <guillaume.b.chau@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/meteor-vue/vue-meteor/issues"
-  },
-  "homepage": "https://github.com/meteor-vue/vue-meteor#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.1",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^4.16.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.1"
   }
 }
