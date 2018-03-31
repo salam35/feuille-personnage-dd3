@@ -1,16 +1,15 @@
 <template>
   <nav>
-    <div class="app-title">Vue+Meteor</div>
+    <div class="app-title">Feulles de personnages DD3</div>
     <router-link :to="{ name: 'home' }" exact>Home</router-link>
+    <router-link :to="{ name: 'menu' }">Menu</router-link>
+    <router-link :to="{ name: 'avatar' }">Avatar</router-link>
     <router-link :to="{ name: 'shop' }">Shop</router-link>
     <router-link :to="{ name: 'notes' }">Notes</router-link>
     <router-link :to="{ name: 'map' }">Map</router-link>
     <router-link :to="{ name: 'apollo' }">Apollo</router-link>
     <router-link :to="{ name: 'async' }">Async</router-link>
     <router-link :to="{ name: 'about' }">About</router-link>
-    <div class="actions">
-      <button @click="openCart"><i class="material-icons">shopping_cart</i></button>
-    </div>
   </nav>
 </template>
 

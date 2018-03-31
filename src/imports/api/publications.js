@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor'
-import { Notes, Items } from './collections'
+import { Notes, Items, Characters } from './collections'
 
 Meteor.publish('notes', function (limit) {
   return Notes.find({}, {
@@ -10,4 +10,8 @@ Meteor.publish('notes', function (limit) {
 
 Meteor.publish('items', function () {
   return Items.find({})
+})
+
+Meteor.publish('characters', function () {
+  return Characters.find({})
 })
